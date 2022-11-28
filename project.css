@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: rgb(174, 171, 171);
+}
+
+nav {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 60px;
+    height: 50px;
+    padding: 0 25px;
+    border-radius: 70%;
+}
+
+nav ul {
+    height: 54px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0 23px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+
+}
+
+nav ul li a:hover {
+    color: rgb(0, 0, 100);
+    font-weight: bold;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search input {
+    width: 490px;
+    height: 27px;
+    border-radius: 20px;
+    margin: 0 10px 0 20px;
+}
+
+.slider {
+    margin: 5px auto;
+    width: 80vw;
+    height: 39vh;
+    display: flex;
+    justify-content: center;
+   
+}
+
+
+.card {
+    max-width: 91vw;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* overflow: scroll; */
+}
+
+.card-item {
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 200px;
+    margin: 12px 30px 0 30px;
+}
+
+.text-center {
+    text-align: center;
+    font-weight: bold;
+    color:black;
+}
+.text-center a{
+    text-decoration: none;
+    color: black;
+}
+.text-center a:hover{
+    /* color: orange; */
+    font-size: 18px;
+    /* font-weight: bold; */
+    border: 1px solid blueviolet;
+    border-radius: 25px;
+    padding: 4px 8px;
+
+}
+
+.card h2 {
+    color: black;
+    background-color:white;
+    border: 2px solid blueviolet;
+    padding: 10px 50px;
+    border-radius: 15px;
+}
+
+.head {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    color: rgb(0, 0, 81);
+    /* border: 4px solid black; */
+    background-color:white;
+    margin: 15px 0;
+    font-weight: bold;
+}
+
+.btn {
+    padding: 1px 2px;
+    color: white;
+    background-color: slategray;
+    border: 2px solid white;
+    cursor: pointer;
+    border-radius: 8px;
+    font-weight: bold;
+
+}
+
+.my-1 {
+    margin: 10px 0;
+}
+
+
+.flex-all-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    height: 8vh;
+    background-color: black;
+    color: white;
+}
